@@ -87,7 +87,7 @@ function launch_popup() {
     
 }
 
-document.addEventListener("DOMContentLoaded", function(event) {
+function load_content() {
     const body = document.body;
     
     box.setAttribute("style", box_style);
@@ -103,4 +103,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
     box.appendChild(floating_btn);
     
     body.appendChild(box);
-});
+}

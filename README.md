@@ -11,6 +11,9 @@ whatsapp://send/?phone=<Add the phone number here. NO leading 0s>
 ```html
 <script type="text/javascript">
     var phone_number = "<Add the above Base64 encoded value here>";
+    document.addEventListener("DOMContentLoaded", function(event) {
+            load_content();
+    });
 </script>
-<script type="text/javascript" src="./whatsapp.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/praveenprem/whatsapp-chat-launcher/whatsapp.js"></script>
 ```
